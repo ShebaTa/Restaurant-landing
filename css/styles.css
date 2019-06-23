@@ -112,7 +112,6 @@ input[type="button"]:hover {
 }
 
 .cook-article {
-    margin: auto;
     text-align: center;
 }
 
@@ -156,8 +155,10 @@ p {
 .dish {
     background: url("../images/dish.png") no-repeat;
     width: 621px;
-    height: 625px;
-    margin: auto;
+    height: 100%;
+    background-position: center;
+    margin-left: 70px;
+
 }
 
 .section-3 {
@@ -293,9 +294,15 @@ blockquote {
 .section-6 {
     background-image: url("../images/background-section6.jpg");
     height: 710px;
-    /* display: flex;
+     display: flex;
     flex-direction: row;
-    justify-content: center; */
+    justify-content: center; 
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .img-1 {
@@ -303,6 +310,8 @@ blockquote {
     width: 270px;
     height: 507px;
     margin: auto;
+    flex-grow: 1;
+    background-position: right;
 }
 
 .img-2 {
@@ -310,11 +319,14 @@ blockquote {
     width: 270px;
     height: 507px;
     margin: auto;
+    flex-grow: 1;
+    background-position: center;
 }
 
 .reservation {
-    margin: auto;
     text-align: center;
+    flex-grow: 2;
+    height: 100%;
 }
 
 .element-6 {
@@ -330,6 +342,10 @@ blockquote {
     display: inline-block;
     width: 50%;
     margin-right: -4px;
+}
+
+form label {
+    text-align: left;
 }
 
 input[type="submit"] {
@@ -348,6 +364,9 @@ footer {
     background: #191919;
     color: white;
     height: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 footer article {
