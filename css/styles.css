@@ -34,15 +34,36 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.3em;
+    padding: 54px 20px 0;
+    display: inline-block;
 }
 
 nav a:hover {
     border-top: 2px solid #fff;
+    padding: 52px 20px 0;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 section {
     width: 100%;
     height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../images/main-background.jpg");
 }
 
 h1 {
@@ -50,6 +71,7 @@ h1 {
     font-size: 5em;
     line-height: 1.5em;
     margin: 0;
+    text-align: center;
 }
 
 .element-1 {
@@ -59,16 +81,293 @@ h1 {
     padding: 30px 0;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-image: url("../images/main-background.jpg");
+input[type="button"] {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid black;
+    width: 230px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+input[type="button"]:hover {
+    background: rgba(225, 225, 225, 0.3);
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .btn-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.section-2 {
+    background-image: url("../images/background-section2.jpg");
+    height: 710px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cook-article {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #cc9900;
+    font-size: xx-large;
+    padding-top: 115px;
+    padding-bottom: 23px;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+
+}
+
+.element-2 {
+    background: url("../images/element-2.png") no-repeat;
+    width: 247px;
+    height: 24px;
+    padding-bottom: 30px;
+    display: inline-block;
+    
+}
+
+p {
+    padding-bottom: 60px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 17px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.cooks-signature {
+    background: url("../images/cooks-signature.png") no-repeat;
+    width: 219px;
+    height: 221px;
+    display: inline-block;
+}
+
+.dish {
+    background: url("../images/dish.png") no-repeat;
+    width: 621px;
+    height: 625px;
+    margin: auto;
+}
+
+.section-3 {
+    height: 820px;
+    background-image: url("../images/background-section3.jpg");
+}
+
+.ingredients {
+    background: rgba(0, 0, 0, 0.5);
+    width: 570px;
+    height: 557px;
+    margin-top: 100px;
+    margin-left: 814px;
+    color: white;
+    text-align: center;
+}
+
+.section-3 h2 {
+    color: #fff;
+    padding-top: 90px;
+}
+
+.element-3 {
+    background: url("../images/element-3.png") no-repeat;
+    width: 247px;
+    height: 24px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.ingredients-images {
+    background: url("../images/fine-ingredients.png") no-repeat;
+    width: 390px;
+    height: 110px;
+    display: inline-block;
+    
+}
+
+.section-4 {
+    background-image: url("../images/background-section4.jpg");
+    height: 994px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-column-1,
+.menu-column-2  {
+    width: 50%;
+}
+
+table {
+    border-spacing: 0;
+    width: 430px;
+    margin-left: 285px;
+    
+}
+
+table caption {
+    color: #cc9900;
+    font-size: 40px;
+    padding-top: 115px;
+    padding-bottom: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.element-4 {
+    background: url("../images/element-2.png") no-repeat;
+}
+
+.name td{
+    color: #cc9900;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #cc9900;
+}
+
+td.price {
+    text-align: right;
+    font-size: x-large;
+    
+ } 
+
+.discription td{
+     white-space: nowrap;
+     padding-bottom: 20px;
+     padding-top: 10px;
+ }
+
+.section-5 {
+    background-image: url("../images/background-section5.jpg");
+    height: 787px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reviews {
+    background: rgba(0, 0, 0, 0.5);
+    width: 770px;
+    height: 557px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.reviews h2 {
+    color: #fff;
+    padding-top: 90px;
+}
+
+.element-5 {
+    background: url("../images/element-3.png") no-repeat;
+    width: 247px;
+    height: 24px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+blockquote {
+    padding-bottom: 60px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 17px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section-6 {
+    background-image: url("../images/background-section6.jpg");
+    height: 710px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+.img-1 {
+    background: url("../images/sec-6-img-1.jpg") no-repeat;
+    width: 270px;
+    height: 507px;
+    margin: auto;
+}
+
+.img-2 {
+    background: url("../images/sec-6-img-2.jpg") no-repeat;
+    width: 270px;
+    height: 507px;
+    margin: auto;
+}
+
+.reservation {
+    margin: auto;
+    text-align: center;
+}
+
+.element-6 {
+    background: url("../images/element-2.png") no-repeat;
+    width: 247px;
+    height: 24px;
+    padding-bottom: 30px;
+    display: inline-block;
+    
+}
+
+.half-width {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 200px;
+    margin: 0 5px;
+    padding: 6px 15px;
+  
+    color: #ffffff;
+  
+    background-color: #cc9900;
+    border: none;
+}
+
+footer {
+    background: #191919;
+    color: white;
+    height: 320px;
+}
+
+footer article {
+    -moz-column-width: 350px;  
+    -webkit-column-width: 350px;   
+    column-width: 350px;
+    -webkit-column-gap: 30px;  
+    -moz-column-gap: 30px;  
+    column-gap: 30px;  
+}
+
+footer h2 {
+    color: white;
+    font-size: x-large;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+footer p {
+    white-space: pre-line;
+    padding-bottom: 20px;
 }
