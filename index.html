@@ -4,21 +4,28 @@
         <meta charset="utf-8">
         <title>Restaurant</title>
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/fonts.css">
+        <link rel="stylesheet" href="./css/all.min.css">
     </head>
     <body>
         <header>
             <div class="logo"></div>
             <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Ingredients</a>
-                <a href="">Menu</a>
-                <a href="">Reviews</a>
-                <a href="">Reservations</a>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Ingredients">Ingredients</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Reviews">Reviews</a>
+                <a href="#Reservations">Reservations</a>
+                <span class="icons">
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-youtube"></i></a>
+                    <a><i class="fab fa-facebook-f"></i></a>
+                </span>
             </nav>
         </header>
         <main>
-            <section class="section-1">
+            <section id="Home" class="section-1">
                 <h1>the right ingredients <br> for the right food</h1>
                 <div class="element-1"></div>
                 <div class="btn-group">
@@ -26,7 +33,7 @@
                     <input type="button" name="button-menu" value="SEE THE MENU">
                 </div>
                 </section>
-            <section class="section-2">
+            <section id="About" class="section-2">
                 <article class="cook-article">
                     <h2>
                         Just the right food
@@ -43,7 +50,7 @@
                 </article>
                 <div class="dish"></div>
             </section>
-            <section class="section-3">
+            <section id="Ingredients" class="section-3">
                 <aside class="ingredients">
                     <h2>Fine ingredients</h2>
                     <div class="element-3"></div>
@@ -57,113 +64,49 @@
                     <div class="ingredients-images"></div>
                 </aside>
             </section> 
-            <section class="section-4">
-                <div class="menu-column-1">
-                    <table>
-                        <caption>Appetisers</caption>
-                        <figure class="element-4"></figure>
-                        <tr class="name">
-                            <td>Tsatsiki</td>
-                            <td class="price">$3,99</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Refreshing traditional cucumber and garlic yogurt dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Aubergine Salad</td>
-                            <td class="price">$5,50</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Aubergine Salad</td>
-                            <td class="price">$5,25</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                    </table>
-                    <table>
-                        <caption>Salads</caption>
-                        <figure class="element-4"></figure>
-                        <tr class="name">
-                            <td>Olive Spetial</td>
-                            <td class="price">$5,99</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Refreshing traditional cucumber and garlic yogurt dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Greek Salad</td>
-                            <td class="price">$5,50</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Gusto Salad</td>
-                            <td class="price">$5,25</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                    </table>
+            <section id="Menu" class="section-4">
+                <div class="half-width-1">
+                    <h2>Appetisers</h2>
+                    <dl>
+                        <dt>Tsatsiki<span>$3,99</span></dt>
+                        <dd>Refreshing traditional cucumber and garlic yogurt dip.</dd>
+                        <dt>Aubergine Salad<span>$5,50</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                        <dt>Aubergine Salad<span>$5,25</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                    </dl>
+                    <h2>Salads</h2>
+                    <dl>
+                        <dt>Olive Spetial<span>$5,99</span></dt>
+                        <dd>Refreshing traditional cucumber and garlic yogurt dip.</dd>
+                        <dt>Greek Salad<span>$5,50</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                        <dt>Gusto Salad<span>$5,25</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                    </dl>
                 </div>
-                <div class="menu-column-2">
-                    <table>
-                        <caption>Starters</caption>
-                        <figure class="element-4"></figure>
-                        <tr class="name">
-                            <td>Haloumi</td>
-                            <td class="price">$3,99</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Refreshing traditional cucumber and garlic yogurt dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Spinach Pie</td>
-                            <td class="price">$5,50</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                    </table>
-                    <table>
-                        <caption>Main Dishes</caption>
-                        <figure class="element-4"></figure>
-                        <tr class="name">
-                            <td>Cornish Mackerel</td>
-                            <td class="price">$5,99</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Refreshing traditional cucumber and garlic yogurt dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Roast Lamb</td>
-                            <td class="price">$5,50</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Fried Chicken</td>
-                            <td class="price">$5,25</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
-                        </tr>
-                        <tr class="name">
-                            <td>Pastitsio</td>
-                            <td class="price">$5,99</td>
-                        </tr>
-                        <tr class="discription">
-                            <td>Refreshing traditional cucumber and garlic yogurt dip.</td>
-                        </tr>
-                    </table>
+                <div class="half-width-2">
+                    <h2>Starters</h2>
+                    <dl>
+                        <dt>Haloumi<span>$3,99</span></dt>
+                        <dd>Refreshing traditional cucumber and garlic yogurt dip.</dd>
+                        <dt>Spinach Pie<span>$5,50</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                    </dl>
+                    <h2>Main Dishes</h2>
+                    <dl>
+                        <dt>Cornish Mackerel<span>$5,99</span></dt>
+                        <dd>Refreshing traditional cucumber and garlic yogurt dip.</dd>
+                        <dt>Roast Lamb<span>$5,50</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                        <dt>Fried Chicken<span>$5,25</span></dt>
+                        <dd>Pureed eggplant, garlic, green pepper and tomato dip.</dd>
+                        <dt>Pastitsio<span>$5,25</span></dt>
+                        <dd>Refreshing traditional cucumber and garlic yogurt dip.</dd>
+                    </dl>
                 </div>
             </section>
-            <section class="section-5">
+            <section id="Reviews" class="section-5">
                 <aside class="reviews">
                     <h2>Guest reviews</h2>
                     <div class="element-5"></div>
@@ -177,46 +120,35 @@
                     <figcaption>-food inc, New York</figcaption>
                 </aside>
             </section>
-            <section class="section-6">
+            <section id="Reservations" class="section-6">
                 <div class="img-1"></div>
                 <div class="img-2"></div>
                 <article class="reservation">
-                    <h2>Just the right food</h2>
-                    <div class="element-6"></div>
-                    <p>If you've been to one of our restaurants, you've seen-and<br>
-                        tasted-what keeps our customers coming back for more. <br>
-                        Perfect materials and fresly baked food, delicious Lambda <br>
-                        cakes, muffins and gourmet coffee make us hard to resist!<br>
-                        Stop in today and check us out!
-                    </p>
-                    <form action="" method="post">
-                        <div class="half-width">
-                            <label>Name
-                                <div>
+                    <div class="reservation-wrap">
+                        <h2>Just the right food</h2>
+                        <div class="element-6"></div>
+                        <p>If you've been to one of our restaurants, you've seen-and<br>
+                            tasted-what keeps our customers coming back for more. <br>
+                            Perfect materials and fresly baked food, delicious Lambda <br>
+                            cakes, muffins and gourmet coffee make us hard to resist!<br>
+                            Stop in today and check us out!
+                        </p>
+                        <form action="" method="post" class="reservation-form">
+                                <label>Name
                                     <input type="text" name="name" placeholder="your name*" required>
-                                </div>
-                            </label>
-                            <br>
-                            <label>Date
-                                <br>
-                                <input type="datetime" placeholder="date*" required>
-                            </label>
-                        </div>
-                        <div class="half-width">
-                            <label>Email
-                                <br>
-                                <input type="email" placeholder="your email*" required>
-                            </label>
-                            <br>
-                            <label>Party number
-                                <br>
-                                <input type="number" max="6" placeholder="party number" >
-                            </label>
-                        </div>
-                        <div class="button-book">
-                            <input type="submit" value="Book now!">
-                        </div>
-                    </form>
+                                </label>
+                                <label>Date
+                                    <input type="datetime" placeholder="date*" required>
+                                </label>
+                                <label>Email
+                                    <input type="email" placeholder="your email*" required>
+                                </label>
+                                <label>Party number
+                                    <input type="number" min="1" max="6" placeholder="party number" >
+                                </label>
+                        </form>
+                        <input type="submit" value="Book now!">
+                    </div>
                 </article>
             </section>
         </main>
